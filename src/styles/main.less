@@ -2,6 +2,8 @@
 @fontDotitulo: Lobster,cursive;
 @corDoTexto: #ffff;
 @corDeFundo:#eb3b5a;
+@corTextoBotao: #000;
+@corFundoBotao:#f7b731;
 
 body {
     background-color: @corDeFundo;
@@ -12,4 +14,36 @@ body {
 h1{
     font-family: @fontDotitulo;
     font-size: 3em;
+}
+
+main{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 2em;
+    text-align: center;
+}
+
+button {
+    padding: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-top: 16px;
+    border-radius: 8px;
+    background-color: @corFundoBotao;
+    color: @corTextoBotao;
+    font-family: @fontPrincipal;
+}
+
+input {
+    display:block;
+    margin:16px auto 0;
+    font-size: 2em;
+    max-width: 120px;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    color: #ffff;
+    border-bottom: 6px solid;
 }

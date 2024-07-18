@@ -19,7 +19,7 @@ module.exports = function(grunt) {
             }
         },
         
-        // Monitora mudanças em arquivos e executa tarefas
+       
         watch: {
             less: {
                 files: ['src/styles/**/*.less'],
